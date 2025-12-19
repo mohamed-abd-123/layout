@@ -1,0 +1,70 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: blue;
+    text-align: center;
+    padding: 8px;   
+    color: white;
+}
+.image{
+    background-color: red;
+    text-align: center;
+    padding: 90px;
+    color: white;
+}
+.main{
+    background-color: yellowgreen;
+    text-align: center;
+    padding: 200px;
+    position: absolute;
+    left: 300px;
+   width: 54%;
+   top: 357px;
+   color: white;
+}
+.sidebar{
+    background-color: purple;
+   padding-bottom: 500px;
+   padding-top: 10px;
+   height: 150px;
+   width: 300px;
+
+}
+.sidebar h1{
+position: relative;
+left: 80px;
+top: 250px;
+color: white;
+}
+.banner{
+    background-color: blueviolet;
+     text-align: center;
+     padding: 50px;
+      position: absolute;
+      left: 300px;
+       width: 1120px;
+       bottom: -206px;
+       color: white;
+}
+.annonce{
+    background-color: aqua;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    padding-left: 10px;
+}
+.annonce h1{
+   margin: 0px 40px;
+   color: white;
+}
+
+
+footer{
+    background-color: palevioletred;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
