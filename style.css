@@ -1,70 +1,66 @@
-
-body{
+body {
     margin: 0px;
     padding: 0px;
+
+
 }
-.header{
-    background-color: blue;
+
+header{
+    background-color: aqua;
+    padding: 20px;
     text-align: center;
-    padding: 8px;   
-    color: white;
 }
-.image{
-    background-color: red;
+.navbar{
+    background-color: blueviolet;
+    padding: 80px;
     text-align: center;
-    padding: 90px;
-    color: white;
+}
+.sidemain{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    background-color: greenyellow;
+    height: 700px;
+    width: 30%;
+    text-align: center;
+}
+.lkol{
+   width: 70%;
+   height: 700px;
 }
 .main{
-    background-color: yellowgreen;
+    background-color: red;
+    padding: 5px;
     text-align: center;
-    padding: 200px;
-    position: absolute;
-    left: 300px;
-   width: 54%;
-   top: 357px;
-   color: white;
-}
-.sidebar{
-    background-color: purple;
-   padding-bottom: 500px;
-   padding-top: 10px;
-   height: 150px;
-   width: 300px;
-
-}
-.sidebar h1{
-position: relative;
-left: 80px;
-top: 250px;
-color: white;
+    height: 400px;
+   
 }
 .banner{
-    background-color: blueviolet;
-     text-align: center;
-     padding: 50px;
-      position: absolute;
-      left: 300px;
-       width: 1120px;
-       bottom: -206px;
-       color: white;
+    background-color: green;
+    padding: 5px;
+    text-align: center;
+    height: 200px;
 }
-.annonce{
-    background-color: aqua;
+.pub-container{
+    
     display: flex;
-    padding: 10px;
-    justify-content: center;
-    padding-left: 10px;
-}
-.annonce h1{
-   margin: 0px 40px;
-   color: white;
-}
+    flex-direction: row;
+    height: 80px;
 
-
+}
+.pub{
+    background-color: brown;
+    width: 70%;
+    text-align: center;
+}
+.img{
+    background-color: pink;
+     width: 30%;
+     text-align: center;
+}
 footer{
-    background-color: palevioletred;
+    background-color: blueviolet;
     text-align: center;
     padding: 10px;
-    color: white;
 }
